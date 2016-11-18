@@ -1,0 +1,105 @@
+body {
+    background-color: #2B2C30;
+	font-family: 'Ubuntu', 'Arial', sans-serif;
+    line-height: 1.5;
+    color: #ddd;
+}
+
+a {
+    color: #fff;
+	
+	-webkit-transition: all .3s ease-in 0s;
+	   -moz-transition: all .3s ease-in 0s;
+		 -o-transition: all .3s ease-in 0s;
+			transition: all .3s ease-in 0s;
+}
+
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:focus, a:hover {
+    color: #6CB670;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: oswald;
+    font-weight: 400;
+}
+
+.btn {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 30px;
+	border-radius: 0;
+    margin-top: 15px;
+	
+	-webkit-transition: all .5s ease-in 0s;
+	   -moz-transition: all .5s ease-in 0s;
+		 -o-transition: all .5s ease-in 0s;
+			transition: all .5s ease-in 0s;
+}
+
+.btn:focus {
+	color: #ddd;
+}
+
+.btn-green {
+    background-color: #6cb670;
+}
+
+.btn-green:focus, 
+.btn-green:hover {
+    background-color: #2F383D;
+	color: #fff;
+}
+
+.btn-transparent {
+	border: 1px solid #4e595f;
+}
+
+.btn-transparent:focus {
+    background-color: transparent;
+    border-color: #6cb670;
+}
+
+.btn-transparent:hover {
+    background-color: #6cb670;
+	border: 1px solid transparent;
+    color: #fff;
+}
+
+.logo {
+  font-size: 44px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+  text-transform: uppercase;
+}
+
+.nav {
+  text-align: right;
+}
+
+.primary-nav {
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.primary-footer small {
+  float: left;
+  font-weight: 100;
+}
+.primary-footer {
+  position: fixed;
+  bottom: 0;
+  right: 25px;
+  color: #648880;
+  font-size: 11px;
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
